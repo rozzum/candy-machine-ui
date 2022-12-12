@@ -568,7 +568,7 @@ export const MintPage = (props: HomeProps) => {
                                     fontFamily: 'Main',
                                     fontWeight: 'bold',
                                 }}>
-                                    Collection Name
+                                    CATs from STREET
                                 </Typography>
 
                                         <Info type="price" amount={price ? isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel) : mintPrice}/>
